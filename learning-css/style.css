@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.card {
+    width: 600px;
+    margin: 100px auto 0;
+    color: aliceblue;
+    border: 10px solid black;
+    
+    border-radius: 25px;
+}
+
+img {
+    width: 570px;
+    height: 316px;
+    margin: 5px;
+    border: 10px solid black;
+    border-radius: 25px;
+   
+}
+
+.name {
+    color: dimgray;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+ p {
+    color: dimgray; 
+    font-size: 18px;
+    max-width: 60ch;
+   
+    
+}
+button {
+    all: unset;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+strong {
+    color: white;
+}
